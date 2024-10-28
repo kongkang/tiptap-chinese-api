@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "demo": "parcel demo/index.html"
   },
   "devDependencies": {
     "vue-template-compiler": "^2.7.14"
